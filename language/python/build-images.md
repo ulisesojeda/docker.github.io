@@ -169,7 +169,7 @@ The build command optionally takes a `--tag` flag. The tag is used to set the na
 Let’s build our first Docker image.
 
 ```shell
-$ docker build --tag python-docker .
+$ docker build -t python-docker .
 [+] Building 2.7s (10/10) FINISHED
  => [internal] load build definition from Dockerfile
  => => transferring dockerfile: 203B
